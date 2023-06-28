@@ -8,3 +8,5 @@ Remember , for each non-anonymous functions declared in your smart contract ,  y
 In an Ethereum based network, the solidity compiler  (in our case 'solc')  automatically generates the function selectors based on the function name and parameters types defined in the contract . <br>
 
 When a function is called on a smart contract, the function selector is used to identify which function should be executed. 
+
+To run the program : "go run functionSelector.go" . 

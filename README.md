@@ -3,7 +3,7 @@ The featured Go codebase outputs in the cli the hex value of the function select
 
 After you have compiled your .sol file using  `solc`  in the cli, you might want to have the hexadecimal values of the different function selectors present 
 in the smart contract.<br>
-Remember , for each non-anonymous functions declared in your smart contract ,  you have a function selector assigned to it. <br>
+Remember , for each declared function in your smart contract ,  you have a function selector assigned to it. <br>
 
 In an Ethereum based network, the solidity compiler  (in our case `solc` )  automatically generates the function selectors based on the function name and parameters types defined in the contract . <br>
 

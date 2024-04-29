@@ -1,3 +1,8 @@
+/*The provided Go code parses a smart contract's ABI (Application Binary Interface) file to extract information about its functions and then calculates the function selectors for each function.
+Function selectors are the first four bytes of the Keccak-256 hash of the function signature.
+*/
+
+
 package main
 
 import (
